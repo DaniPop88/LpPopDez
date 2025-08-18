@@ -4,10 +4,10 @@ import { ExternalLink, Shield, ArrowRight, Crown, Star, Zap } from "@phosphor-ic
 import { useState, useEffect } from "react"
 
 const platformLinks = [
-  { id: 1, url: "pop88811.com", label: "Main" },
-  { id: 2, url: "pop88822.com", label: "Backup" },
-  { id: 3, url: "pop88833.com", label: "Mirror" },
-  { id: 4, url: "pop88844.com", label: "Alt" }
+  { id: 1, url: "popdez11.com", label: "Principal" },
+  { id: 2, url: "popdez22.com", label: "Backup" },
+  { id: 3, url: "popdez33.com", label: "Espelho" },
+  { id: 4, url: "popdez44.com", label: "Alternativo" }
 ]
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
   }
 
   const handleMainPlatform = () => {
-    window.open('https://pop888.com', '_blank', 'noopener,noreferrer')
+    window.open('https://popdez.com', '_blank', 'noopener,noreferrer')
   }
 
   return (
@@ -38,7 +38,7 @@ function App() {
         <div className="absolute top-4 left-1/2 transform -translate-x-1/2 z-10">
           <Badge className="bg-accent/90 text-accent-foreground px-3 py-1 text-xs font-bold shadow-lg">
             <Crown className="w-3 h-3 mr-1" />
-            OFFICIAL 2024
+            OFICIAL 2024
           </Badge>
         </div>
         
@@ -48,11 +48,11 @@ function App() {
           {/* Hero Section */}
           <div className="text-center space-y-4">
             <h1 className="text-6xl font-black shimmer-text animate-pulse-glow leading-none">
-              POP888
+              POPDEZ
             </h1>
             <div className="flex items-center justify-center gap-2 text-accent">
               <Star className="w-5 h-5 fill-current" />
-              <span className="text-lg font-bold">PREMIUM GAMING</span>
+              <span className="text-lg font-bold">JOGOS PREMIUM</span>
               <Star className="w-5 h-5 fill-current" />
             </div>
           </div>
@@ -66,20 +66,20 @@ function App() {
             >
               <span className="relative z-10 flex items-center justify-center gap-2">
                 <Zap className="w-6 h-6" />
-                MASUK SEKARANG
+                ENTRAR AGORA
                 <ArrowRight className="w-6 h-6" />
               </span>
             </Button>
             
             <p className="text-accent text-center font-semibold animate-bounce">
-              ⚡ AKSES INSTAN ⚡
+              ⚡ ACESSO INSTANTÂNEO ⚡
             </p>
           </div>
           
           {/* Quick Links Grid */}
           <div className="space-y-3">
             <h2 className="text-center text-sm font-bold text-accent">
-              LINK ALTERNATIF
+              LINKS ALTERNATIVOS
             </h2>
             <div className="grid grid-cols-2 gap-2">
               {platformLinks.map((link) => (
@@ -104,10 +104,10 @@ function App() {
           <div className="space-y-2 text-center">
             <div className="flex items-center justify-center gap-2 text-xs text-muted-foreground">
               <Shield className="w-3 h-3 text-accent" />
-              <span>100% AMAN & TERPERCAYA</span>
+              <span>100% SEGURO E CONFIÁVEL</span>
             </div>
             <div className="text-xs text-accent font-medium">
-              🎮 50,000+ Online • 🎁 Bonus New Member
+              🎮 50.000+ Online • 🎁 Bônus para Novos Membros
             </div>
           </div>
           
@@ -117,11 +117,11 @@ function App() {
         <div className="text-center space-y-1 mt-6">
           <div className="text-xs text-muted-foreground flex justify-center items-center gap-3">
             <span>🔒 SSL</span>
-            <span>⚡ Instant</span>
+            <span>⚡ Instantâneo</span>
             <span>🎮 24/7</span>
           </div>
           <div className="text-xs text-muted-foreground">
-            © 2024 POP888
+            © 2024 POPDEZ
           </div>
         </div>
       </div>
