@@ -1,6 +1,10 @@
 // Main access function
-function openMainSite() {
-    window.open('https://popdez.com', '_blank');
+function openWASite() {
+    window.open('https://chat.whatsapp.com/KFN7dMZB4zC6Zywl7v3Tg3', '_blank');
+}
+
+function openTGSite() {
+    window.open('https://t.me/+8wvvsA3gARc4NGU5', '_blank');
 }
 
 // Alternative links handler
